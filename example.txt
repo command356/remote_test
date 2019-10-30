@@ -1,0 +1,4 @@
+SET log_file = log_path
+call python_path\Continuum\anaconda3\Scripts\activate.bat
+cd project_path
+python Import.py  >> %log_file%
